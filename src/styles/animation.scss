@@ -1,0 +1,21 @@
+@keyframes slideDown {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY($desktop-height);
+  }
+}
+
+@media screen and (max-width: $tablet-width) {
+  @keyframes slideDown {
+    0% {
+      transform: translateY(0);
+    }
+  
+    100% {
+      transform: translateY($tablet-height);
+    }
+  }
+}
