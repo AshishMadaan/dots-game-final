@@ -105,24 +105,22 @@ footer {
       text-align: right;
     }
   }
-
 }
 
 .timer {
   visibility: hidden;
 }
 
-.mode__selection{
+.mode__selection {
   visibility: hidden;
   align-items: center;
   display: flex;
   justify-content: center;
 }
 
-.show{
+.show {
   visibility: visible;
 }
-
 
 @media screen and (max-width: $tablet-width) {
   header .game__title {
@@ -133,15 +131,15 @@ footer {
   }
   main .game__board {
     top: 48px;
-    height: $tablet-height;;
+    height: $tablet-height;
   }
   .score__text {
     display: none;
   }
-  .mode__selection.show{
+  .mode__selection.show {
     visibility: hidden;
   }
-  .timer.show{
+  .timer.show {
     visibility: hidden;
   }
   footer {
@@ -172,18 +170,17 @@ footer {
         min-width: 50px;
       }
 
-      .slider-speed-text {
+      .slider__speed__text {
         display: block;
         position: absolute;
         border: 0;
         top: 30px;
       }
 
-      .slider-handle {
+      .slider__handle {
         left: 0;
         width: 85vw;
       }
     }
   }
 }
-
